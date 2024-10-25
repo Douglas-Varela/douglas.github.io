@@ -51,8 +51,8 @@
                     const latitude = position.coords.latitude;
                     const longitude = position.coords.longitude;
                     const googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
-                    const phoneNumber = 'seu-numero-aqui'; // Substitua pelo número desejado no formato internacional, ex: 5511999999999
-                    const message = encodeURIComponent(`Esta é minha localização de emergência: ${googleMapsUrl}`);
+                    const phoneNumber = '5521995141312'; // Substitua pelo número desejado no formato internacional, ex: 5511999999999
+                    const message = encodeURIComponent(`Esta é minha localização de emergência: ${googleMapsUrl}, estou com problemas.`);
                     
                     // Abrir o WhatsApp com a mensagem de localização
                     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
